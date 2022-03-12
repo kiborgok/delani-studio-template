@@ -121,12 +121,27 @@ input[type="text"]::placeholder {
 }
 
 .social-icons > div {
-    width: 4%;
-    margin: 10px;
+  width: 3%;
+  margin: 10px;
 }
 
-.social-icons > div > img{
-    width: 100%;
+.social-icons > div > img {
+  width: 100%;
+}
+
+.design-description,
+.develop-description,
+.product-description {
+  display: none;
+}
+
+.design,
+.develop,
+.product,
+.design-description,
+.develop-description,
+.product-description {
+  cursor: pointer;
 }
 
 /* Media queries */
