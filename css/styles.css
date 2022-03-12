@@ -29,3 +29,34 @@ body{
     color: white;
     align-self: center;
 }
+
+.services{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background: url("../images/s_image.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sevices::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.services-overlay{
+    position: absolute;
+    text-align: center;
+    color: white;
+    align-self: center;
+}
+
+/* Media queries */
+@media only screen and (max-width: 550px){
+    #bg1{
+        height: 300px;
+    }
+}
