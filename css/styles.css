@@ -163,23 +163,52 @@ input[type="text"]::placeholder {
   display: none;
 }
 
-.port-overlay > h6{
+.port-overlay > h6 {
   margin: 5px;
 }
 
-.logo{
+.logo {
   width: 10%;
   margin-bottom: 15px;
 }
 
-.mouse-click{
+.mouse-click {
   margin-top: 20px;
 }
 
-.ln-height{
-  line-height: 35px;
+.ln-height {
+  line-height: 30px;
   padding-right: 40px;
   padding-left: 40px;
+}
+
+.product {
+  width: 25% !important;
+}
+.contact-us-overlay {
+  width: 55% !important;
+}
+.popup {
+  position: absolute;
+  width: 25% !important;
+  background-color: burlywood;
+  height: auto;
+  border-radius: 3px;
+  top: 20px;
+  right: 10px;
+  display: none;
+}
+.popup > form {
+  padding: 10px;
+}
+
+.text-end {
+  color: red;
+  cursor: pointer;
+}
+
+.msg {
+  padding: 5px;
 }
 
 /* Media queries */
@@ -187,14 +216,22 @@ input[type="text"]::placeholder {
   #bg1 {
     height: 300px;
   }
-  .port-overlay > h6{
-  font-size: 10px;
-}
-.w-50{
-  width: 75%!important;
-}
-.w-25{
-  width: 100%!important;
-  flex-direction: column;
-}
+  .port-overlay > h6 {
+    font-size: 10px;
+  }
+  .w-50 {
+    width: 75% !important;
+  }
+  .deeds {
+    flex-direction: column;
+  }
+  .product {
+    width: 75% !important;
+  }
+  .contact-us-overlay {
+    width: 75% !important;
+  }
+  .popup{
+     width: 60%!important;
+  }
 }
