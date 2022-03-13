@@ -1,14 +1,8 @@
-$(".design").click(function () {
-    $(".design-description").toggle()
-    $(".design-icon").toggle();
+$(".product").click(function () {
+    $(this).find(".description").toggle()
+    $(this).find(".icon").toggle();
 })
 
-$(".develop").click(function () {
-  $(".develop-description").toggle();
-  $(".develop-icon").toggle();
-});
-
-$(".product").click(function () {
-  $(".product-description").toggle();
-  $(".product-icon").toggle();
-});
+$(".port-imgs").hover(function () {
+    $(this).find(".port-overlay").toggle()
+})
