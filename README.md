@@ -41,7 +41,7 @@
 
 * MDN
 
-#### Link to live site: https://kiborgok.github.io/akana-people-birthday/
+#### Link to live site: https://kiborgok.github.io/delani-studio-template/
 
 ## Licence
 
