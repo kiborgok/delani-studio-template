@@ -129,19 +129,57 @@ input[type="text"]::placeholder {
   width: 100%;
 }
 
-.design-description,
-.develop-description,
-.product-description {
+.description {
   display: none;
 }
 
-.design,
-.develop,
 .product,
-.design-description,
-.develop-description,
-.product-description {
+.description,
+.icon {
   cursor: pointer;
+}
+
+.port-imgs {
+  position: relative;
+  cursor: pointer;
+}
+.port-imgs::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.port-overlay {
+  position: absolute;
+  color: white;
+  top: 5px;
+  bottom: 5px;
+  right: 5px;
+  left: 5px;
+  border: 2px solid white;
+  display: none;
+}
+
+.port-overlay > h6{
+  margin: 5px;
+}
+
+.logo{
+  width: 10%;
+  margin-bottom: 15px;
+}
+
+.mouse-click{
+  margin-top: 20px;
+}
+
+.ln-height{
+  line-height: 35px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 /* Media queries */
@@ -149,4 +187,14 @@ input[type="text"]::placeholder {
   #bg1 {
     height: 300px;
   }
+  .port-overlay > h6{
+  font-size: 10px;
+}
+.w-50{
+  width: 75%!important;
+}
+.w-25{
+  width: 100%!important;
+  flex-direction: column;
+}
 }
